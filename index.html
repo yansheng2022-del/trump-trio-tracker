@@ -478,10 +478,10 @@
     </div>
 
     <div class="cat" data-page-node-id="XKO7yEJA5qqDLuCpl43AZt"><h2 data-page-node-id="iHWwXT0ADgE1kpMJsTQnT1">④ 美国国债收益率（2年 / 10年 / 20年，%）</h2>
-      <div class="chartbox" data-page-node-id="IK0hYBRjiXtDu27rkEID2Z"><div class="ct" data-page-node-id="yOv7qvFDXOirGoVjXsCibe">美债收益率月度均值走势（%）</div>
+      <div class="chartbox" data-page-node-id="IK0hYBRjiXtDu27rkEID2Z"><div class="ct" data-page-node-id="yOv7qvFDXOirGoVjXsCibe">美债收益率走势（%）：2月–9月（9月=9/14收盘）</div>
         <div class="legend" data-page-node-id="kOjJX874zCqwkJFo6WvM5G"><span data-page-node-id="OzHejgC8qvLp18uU532kfp"><i style="background:var(--blue)" data-page-node-id="cglnLRTrgQU2AEjQCk61L3"></i>2年</span><span data-page-node-id="y77mEgVqGaxYgQ5uETXzSR"><i style="background:var(--purple)" data-page-node-id="oxibeLo6d98NLa9Ea3saS6"></i>10年</span><span data-page-node-id="xdNIBRHakO6dvALEgqJMWL"><i style="background:var(--teal)" data-page-node-id="wH0DKz7EaPBGXM56FWtgLk"></i>20年</span></div>
         <div id="ch_yield" data-page-node-id="qOMrXV5ajkot9flqxnNNqu"></div>
-        <div class="meta" data-page-node-id="yfDLtMsEDzf0kVqbHBKaft">当前即期（9/14 收盘）：2Y 4.66%（+4.1bp）/ 3Y 4.756% / 5Y 4.820% / 10Y 4.988%（+1.85bp，盘中突破 5% 创 2023 年来新高）/ 30Y 5.348%（−0.64bp）。较 9/11（10Y 4.974%、30Y 5.358%）长端小幅回落、短端继续上行，曲线进一步平坦化。收益率高位反映"通胀再起(油价+$100+/桶)+Warsh鹰派+封锁令生效"三重压力；贝森特长债回购（≥$6B/次）试图压低长端，与沃什"收益率是良善市场信号"立场相左。</div>
+        <div class="meta" data-page-node-id="yfDLtMsEDzf0kVqbHBKaft">当前即期（9/14 收盘，美国财政部官方 CMT）：2Y 4.65% / 3Y 4.73% / 5Y 4.80% / 10Y 4.97%（盘中一度突破 5%，为 2023 年来首次）/ 20Y 5.37% / 30Y 5.34%。短端较 9/11 继续上行、长端高位震荡，曲线进一步平坦化。图表已更新至 9 月（2月–9月；9月取 9/14 收盘，8月取月度均值）。收益率高位反映"通胀再起(油价+$100+/桶)+Warsh鹰派+封锁令生效"三重压力；贝森特长债回购（≥$6B/次）试图压低长端，与沃什"收益率是良善市场信号"立场相左。</div>
       </div>
     </div>
 
@@ -582,8 +582,8 @@
   lineChart('ch_nfp',{labels:M7,yMin:-200,yMax:250,showVals:true,suffix:'',series:[{color:'#1f5fb0',values:[-156,214,148,63,20,-23,162]}]});
   lineChart('ch_unemp',{labels:M7,yMin:4.0,yMax:4.6,showVals:true,suffix:'%',series:[{color:'#2e7d4f',values:[4.4,4.3,4.3,4.3,4.2,4.1,4.1]}]});
   lineChart('ch_pce',{labels:M,yMin:2.5,yMax:4.3,showVals:true,suffix:'%',series:[{color:'#c0392b',values:[2.8,3.5,3.8,4.1,3.7,3.7]},{color:'#b8860b',values:[3.0,3.3,3.3,3.4,3.3,3.3]}]});
-  lineChart('ch_cpi',{labels:M,yMin:2.3,yMax:4.4,showVals:true,suffix:'%',series:[{color:'#c0392b',values:[2.4,3.3,3.8,4.2,3.5,3.4]},{color:'#b8860b',values:[2.5,2.6,2.7,2.8,2.6,2.5]}]});
-  lineChart('ch_yield',{labels:M,yMin:3.2,yMax:5.3,showVals:true,suffix:'%',series:[{color:'#1f5fb0',values:[3.38,3.71,3.80,4.00,4.11,4.22]},{color:'#7b3fa0',values:[4.13,4.25,4.32,4.48,4.47,4.60]},{color:'#0f8a8a',values:[4.70,4.83,4.89,5.03,4.96,5.11]}]});
+  lineChart('ch_cpi',{labels:['2月','3月','4月','5月','6月','7月','8月'],yMin:2.3,yMax:4.4,showVals:true,suffix:'%',series:[{color:'#c0392b',values:[2.4,3.3,3.8,4.2,3.5,3.4,3.4]},{color:'#b8860b',values:[2.5,2.6,2.7,2.8,2.6,2.5,2.4]}]});
+  lineChart('ch_yield',{labels:['2月','3月','4月','5月','6月','7月','8月','9月'],yMin:3.2,yMax:5.5,showVals:true,suffix:'%',series:[{color:'#1f5fb0',values:[3.38,3.71,3.80,4.00,4.11,4.22,4.17,4.65]},{color:'#7b3fa0',values:[4.13,4.25,4.32,4.48,4.47,4.60,4.67,4.97]},{color:'#0f8a8a',values:[4.70,4.83,4.89,5.03,4.96,5.11,5.16,5.37]}]});
 </script>
 </body>
 </html>
